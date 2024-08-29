@@ -14,8 +14,8 @@ namespace Plugin.UI.PDF
 
         public static void Word2PDF(string fileName, string destFilename)
         {
-            Microsoft.Office.Interop.Word.ApplicationClass applicationClass = new Microsoft.Office.Interop.Word.ApplicationClass();
-            Microsoft.Office.Interop.Word.Document document = (Microsoft.Office.Interop.Word.Document)null;
+            Microsoft.Office.Interop.Word.Application applicationClass = new Microsoft.Office.Interop.Word.Application();
+            Document document = (Document)null;
             object FileName = (object)fileName;
             object missing = Type.Missing;
             string OutputFileName = destFilename;
@@ -77,15 +77,57 @@ namespace Plugin.UI.PDF
 
         public static void Excel2PDF(string fileName, string destFilename)
         {
-            XlFixedFormatType Type = XlFixedFormatType.xlTypePDF;
             string Filename1 = fileName;
-            object missing = null;
+            object missing = Type.Missing;
             object Filename2 = (object)destFilename;
-            Microsoft.Office.Interop.Excel.ApplicationClass applicationClass = (Microsoft.Office.Interop.Excel.ApplicationClass)null;
+            Microsoft.Office.Interop.Excel.Application applicationClass = (Microsoft.Office.Interop.Excel.Application)null;
             Workbook workbook = (Workbook)null;
             try
             {
-                applicationClass = new Microsoft.Office.Interop.Excel.ApplicationClass();
+                applicationClass = new Microsoft.Office.Interop.Excel.Application();
+                workbook = applicationClass.Workbooks.Open(Filename1, missing, missing, missing, missing, missing, missing, missing, missing, missing, missing, missing, missing, missing, missing);
+                workbook.ExportAsFixedFormat(Microsoft.Office.Interop.Excel.XlFixedFormatType.xlTypePDF, Filename2, (object)XlFixedFormatQuality.xlQualityStandard, (object)true, (object)false, missing, missing, missing, missing);
+            }
+            catch (InvalidCastException ex)
+            {
+                throw new Exception("Module chuyển đổi chưa được đăng ký với hệ thống.\n\rĐể sử dụng được tính năng này,phần mềm MS Office cần phải được sửa chữa lại.");
+            }
+            catch (COMException ex)
+            {
+                if (ex.ErrorCode != -2147467259)
+                    throw new Exception("Trên máy tình cần cài đặt MS Word 2007 hoặc phiên bản mới hơn để sử dụng tình năng này.");
+                throw new Exception("Module chuyển đổi chưa được cài đặt trên hệ thống.");
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Trên máy tình cần cài đặt MS Office 2007 hoặc phiên bản mới hơn để sử dụng tình năng này.");
+            }
+            finally
+            {
+                workbook?.Close((object)true, missing, missing);
+                if (applicationClass != null)
+                {
+                    applicationClass.Quit();
+                }
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
+            }
+        }
+
+
+        public static void Excel2PDF_bk(string fileName, string destFilename)
+        {
+            Microsoft.Office.Interop.Excel.XlFixedFormatType Type = Microsoft.Office.Interop.Excel.XlFixedFormatType.xlTypePDF;
+            string Filename1 = fileName;
+            object missing = null;
+            object Filename2 = (object)destFilename;
+            Microsoft.Office.Interop.Excel.Application applicationClass = (Microsoft.Office.Interop.Excel.Application)null;
+            Workbook workbook = (Workbook)null;
+            try
+            {
+                applicationClass = new Microsoft.Office.Interop.Excel.Application();
                 workbook = applicationClass.Workbooks.Open(Filename1, missing, missing, missing, missing, missing, missing, missing, missing, missing, missing, missing, missing, missing, missing);
                 workbook.ExportAsFixedFormat(Type, Filename2, (object)XlFixedFormatQuality.xlQualityStandard, (object)true, (object)false, missing, missing, missing, missing);
             }

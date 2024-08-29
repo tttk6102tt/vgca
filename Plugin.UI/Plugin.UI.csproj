@@ -27,21 +27,23 @@
     <Reference Include="MetroFramework.Fonts">
       <HintPath>.\lib\MetroFramework.Fonts.dll</HintPath>
     </Reference>
+
     <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
       <HintPath>.\lib\Microsoft.Office.Interop.Excel.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.PowerPoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
       <HintPath>.\lib\Microsoft.Office.Interop.PowerPoint.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
       <HintPath>.\lib\Microsoft.Office.Interop.Word.dll</HintPath>
     </Reference>
+
     <Reference Include="websocket-sharp">
       <HintPath>.\lib\websocket-sharp.dll</HintPath>
     </Reference>
@@ -50,5 +52,16 @@
   <Content Include="libmupdf.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+</ItemGroup>
+<ItemGroup>
+  <None Update="lib\Microsoft.Office.Interop.Excel.dll">
+    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+  </None>
+  <None Update="lib\Microsoft.Office.Interop.PowerPoint.dll">
+    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+  </None>
+  <None Update="lib\Microsoft.Office.Interop.Word.dll">
+    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+  </None>
 </ItemGroup>
 </Project>

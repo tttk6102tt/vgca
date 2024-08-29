@@ -27,9 +27,6 @@ D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\r
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\MetroFramework.Design.dll
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\MetroFramework.dll
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\MetroFramework.Fonts.dll
-D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\Microsoft.Office.Interop.Excel.dll
-D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\Microsoft.Office.Interop.PowerPoint.dll
-D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\Microsoft.Office.Interop.Word.dll
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\Sign.dll
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\websocket-sharp.dll
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\Sign.pdb
@@ -45,3 +42,6 @@ D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\S
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\obj\Debug\net6.0-windows\Plugin.UI.RevisionViewer.resources
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\obj\Debug\net6.0-windows\Plugin.UI.frmSign_new.resources
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\lib\Microsoft.Office.Interop.Excel.dll
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\lib\Microsoft.Office.Interop.PowerPoint.dll
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Plugin.UI\bin\Debug\net6.0-windows\lib\Microsoft.Office.Interop.Word.dll

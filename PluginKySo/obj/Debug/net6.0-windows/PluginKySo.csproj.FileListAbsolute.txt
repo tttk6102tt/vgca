@@ -30,10 +30,11 @@ D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\Plugin.UI.exe
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\Plugin.UI.dll
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\MetroFramework.dll
-D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\Microsoft.Office.Interop.Word.dll
-D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\Microsoft.Office.Interop.Excel.dll
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\Plugin.UI.pdb
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\libmupdf.dll
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\obj\Debug\net6.0-windows\PluginKySo.Properties.Resources.resources
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\System.Windows.Extensions.dll
 D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\lib\Microsoft.Office.Interop.Excel.dll
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\lib\Microsoft.Office.Interop.PowerPoint.dll
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\PluginKySo\bin\Debug\net6.0-windows\lib\Microsoft.Office.Interop.Word.dll

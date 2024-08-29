@@ -12,9 +12,6 @@
           "MetroFramework.Design": "1.3.0.0",
           "MetroFramework": "1.3.0.0",
           "MetroFramework.Fonts": "1.3.0.0",
-          "Microsoft.Office.Interop.Excel": "12.0.0.0",
-          "Microsoft.Office.Interop.PowerPoint": "12.0.0.0",
-          "Microsoft.Office.Interop.Word": "12.0.0.0",
           "websocket-sharp": "1.0.1.0"
         },
         "runtime": {
@@ -189,30 +186,6 @@
           }
         }
       },
-      "Microsoft.Office.Interop.Excel/12.0.0.0": {
-        "runtime": {
-          "Microsoft.Office.Interop.Excel.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.4518.1014"
-          }
-        }
-      },
-      "Microsoft.Office.Interop.PowerPoint/12.0.0.0": {
-        "runtime": {
-          "Microsoft.Office.Interop.PowerPoint.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.4518.1014"
-          }
-        }
-      },
-      "Microsoft.Office.Interop.Word/12.0.0.0": {
-        "runtime": {
-          "Microsoft.Office.Interop.Word.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.4518.1014"
-          }
-        }
-      },
       "websocket-sharp/1.0.1.0": {
         "runtime": {
           "websocket-sharp.dll": {
@@ -350,21 +323,6 @@
       "sha512": ""
     },
     "MetroFramework.Fonts/1.3.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Office.Interop.Excel/12.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Office.Interop.PowerPoint/12.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Microsoft.Office.Interop.Word/12.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
