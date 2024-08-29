@@ -1,0 +1,17 @@
+﻿using Sign.Org.BouncyCastle.Asn1;
+using Sign.Org.BouncyCastle.Asn1.Utilities.Collections;
+
+namespace Sign.Org.BouncyCastle.Asn1.X509
+{
+    public interface IX509Extension
+    {
+        ISet GetCriticalExtensionOids();
+
+        ISet GetNonCriticalExtensionOids();
+
+        [Obsolete("Use version taking a DerObjectIdentifier instead")]
+        Asn1OctetString GetExtensionValue(string oid);
+
+        Asn1OctetString GetExtensionValue(DerObjectIdentifier oid);
+    }
+}

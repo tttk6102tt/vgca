@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BCA_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BCA_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BKAVCA_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BKAVCA_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BNG_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BNG_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BTC_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BTC_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CA2_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CA2_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CP_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CP_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCS_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCS_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FPTCA_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FPTCA_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MIC_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MIC_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NEWTELCA_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NEWTELCA_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QualifyingProperties" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QualifyingProperties;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SafeCA_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SafeCA_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SMARTSIGN_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SMARTSIGN_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.error_messages.en" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.error_messages.en.lng;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.error_messages.nl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.error_messages.nl.lng;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.error_messages.pt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.error_messages.pt.lng;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.error_messages.vi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.error_messages.vi.lng;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.Courier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Courier.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.Courier-Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Courier-Bold.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.Courier-BoldOblique" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Courier-BoldOblique.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.Courier-Oblique" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Courier-Oblique.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.glyphlist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.glyphlist.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="text.pdf.fonts.Helvetica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Helvetica.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.Helvetica-Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Helvetica-Bold.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.Helvetica-BoldOblique" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Helvetica-BoldOblique.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.Helvetica-Oblique" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Helvetica-Oblique.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.Symbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Symbol.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.Times-Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Times-Bold.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.Times-BoldItalic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Times-BoldItalic.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.Times-Italic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Times-Italic.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.Times-Roman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.Times-Roman.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="text.pdf.fonts.ZapfDingbats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\itext\text.pdf.fonts.ZapfDingbats.afm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="times" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\times;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Timestamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Timestamp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VGCALicenseKeyGenerator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VGCALicenseKeyGenerator;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VGCA_ROOTCA_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VGCA_ROOTCA_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VIETTELCA_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VIETTELCA_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VNPTCA_BIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VNPTCA_BIN;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

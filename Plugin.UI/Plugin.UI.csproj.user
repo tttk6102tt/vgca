@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmConverter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmRevisionViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSign_new.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmVerifier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RevisionViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="ucPDFViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\obj\Debug\net6.0\Sign.csproj.AssemblyReference.cache
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\obj\Debug\net6.0\Sign.Properties.Resources.resources
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\obj\Debug\net6.0\Sign.csproj.GenerateResource.cache
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\obj\Debug\net6.0\Sign.GeneratedMSBuildEditorConfig.editorconfig
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\obj\Debug\net6.0\Sign.AssemblyInfoInputs.cache
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\obj\Debug\net6.0\Sign.AssemblyInfo.cs
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\obj\Debug\net6.0\Sign.csproj.CoreCompileInputs.cache
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\bin\Debug\net6.0\Sign.deps.json
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\bin\Debug\net6.0\Sign.dll
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\bin\Debug\net6.0\Sign.pdb
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\bin\Debug\net6.0\websocket-sharp.dll
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\obj\Debug\net6.0\Sign.csproj.CopyComplete
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\obj\Debug\net6.0\Sign.dll
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\obj\Debug\net6.0\refint\Sign.dll
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\obj\Debug\net6.0\Sign.pdb
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\obj\Debug\net6.0\ref\Sign.dll
+D:\ChuKySo_VGCA_Net6_Decode_2024\PluginKySo\Sign\bin\Debug\net6.0\itextsharp.dll
